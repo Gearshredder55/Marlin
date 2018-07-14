@@ -527,9 +527,9 @@
 /**
  * Default Axis Steps Per Unit (steps/mm)
  * Override with M92
- *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
+ *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]] E4 was equal to 83.15
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 88.89, 88.89, 4031.50, 83.15 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 88.89, 88.89, 4031.50, 105.54 }
 
 /**
  * Default Max Feed Rate (mm/s)
